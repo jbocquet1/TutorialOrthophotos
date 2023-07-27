@@ -19,4 +19,6 @@ Workflow menu -> Align Photos
 
 The new window should look like this : 
 
+![Figure 1: Alignment parameters](AlignOptions.PNG)
+
 The parameters selected are the ones that matched best our dataset but you can modify the accuracy alignment if it does not correspond to yours. 
