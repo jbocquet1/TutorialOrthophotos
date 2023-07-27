@@ -33,11 +33,17 @@ Workflow menu -> Build Dense Cloud
 
 **Figure 2 : Dense Cloud construction parameters**
 
-### 5. Build Mesh or DEM 
+### 5. Build Mesh
 
 In order to create an orthophoto you need to create either a Mesh or a DEM model because the creation rely on a based surface. 
 
-## 6. Build Orthomoisaic 
+![Figure 2: Mesh parameters](MeshOptions.png)
+
+**Figure 2 : Mesh construction parameters**
+
+### 6. Build DEM 
+
+## 7. Build Orthomoisaic 
 
 generate report ? 
 
