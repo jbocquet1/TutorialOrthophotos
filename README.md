@@ -37,13 +37,17 @@ Workflow menu -> Build Dense Cloud
 
 In order to create an orthophoto you need to create either a Mesh or a DEM model because the creation rely on a based surface. 
 
-![Figure 2: Mesh parameters](MeshOptions.png)
+![Figure 3: Mesh parameters](MeshOptions.png)
 
 **Figure 2 : Mesh construction parameters**
 
 ### 6. Build DEM 
 
-## 7. Build Orthomoisaic 
+![Figure 4: Digital Elevation Model parameters](DEMOptions.png)
+
+**Figure 4: Digital Elevation Model parameters**
+
+### 7. Build Orthomoisaic 
 
 generate report ? 
 
@@ -61,15 +65,15 @@ The idea is to filter the tree stem in the point cloud by calculating the normal
 
 ### 8. Calculate Normals 
 
-Tools -> Normals -> Compute 
+Edit -> Normals -> Compute 
 
 [normal options]
 
-Tools -> Normals -> Export to SF (scalar field)
+Edit -> Normals -> Export to SF (scalar field)
 
 Once the normals are considered a SF, you can display the classified Point Cloud based on their normal value. We chose to filter the values that were superior to 0.6. 
 
-Tools -> Scalar Fields -> Filter by Value 
+Edit -> Scalar Fields -> Filter by Value 
 
 Export or Split
 
